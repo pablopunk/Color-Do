@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DB92E919A4309C00AEBFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92E819A4309C00AEBFC3 /* Foundation.framework */; };
+		17DB92EB19A4309C00AEBFC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */; };
+		17DB92ED19A4309C00AEBFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EC19A4309C00AEBFC3 /* UIKit.framework */; };
+		17DB92F319A4309C00AEBFC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DB92F119A4309C00AEBFC3 /* InfoPlist.strings */; };
+		17DB92F519A4309C00AEBFC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB92F419A4309C00AEBFC3 /* main.m */; };
+		17DB92F919A4309C00AEBFC3 /* PVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */; };
+		17DB92FC19A4309C00AEBFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DB92FA19A4309C00AEBFC3 /* Main.storyboard */; };
+		17DB92FF19A4309C00AEBFC3 /* PVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB92FE19A4309C00AEBFC3 /* PVViewController.m */; };
+		17DB930119A4309C00AEBFC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DB930019A4309C00AEBFC3 /* Images.xcassets */; };
+		17DB930719A4309C00AEBFC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB930619A4309C00AEBFC3 /* XCTest.framework */; };
+		17DB930819A4309C00AEBFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92E819A4309C00AEBFC3 /* Foundation.framework */; };
+		17DB930919A4309C00AEBFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EC19A4309C00AEBFC3 /* UIKit.framework */; };
+		17DB931119A4309C00AEBFC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DB930F19A4309C00AEBFC3 /* InfoPlist.strings */; };
+		17DB931319A4309C00AEBFC3 /* Color_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB931219A4309C00AEBFC3 /* Color_DoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DB930A19A4309C00AEBFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DB92DD19A4309C00AEBFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DB92E419A4309C00AEBFC3;
+			remoteInfo = "Color Do";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17DB92EC19A4309C00AEBFC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17DB92F019A4309C00AEBFC3 /* Color Do-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color Do-Info.plist"; sourceTree = "<group>"; };
+		17DB92F219A4309C00AEBFC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17DB92F419A4309C00AEBFC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17DB92F619A4309C00AEBFC3 /* Color Do-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color Do-Prefix.pch"; sourceTree = "<group>"; };
+		17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAppDelegate.h; sourceTree = "<group>"; };
+		17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
+		17DB92FB19A4309C00AEBFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17DB92FD19A4309C00AEBFC3 /* PVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVViewController.h; sourceTree = "<group>"; };
+		17DB92FE19A4309C00AEBFC3 /* PVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVViewController.m; sourceTree = "<group>"; };
+		17DB930019A4309C00AEBFC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17DB930619A4309C00AEBFC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17DB930E19A4309C00AEBFC3 /* Color DoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color DoTests-Info.plist"; sourceTree = "<group>"; };
+		17DB931019A4309C00AEBFC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17DB931219A4309C00AEBFC3 /* Color_DoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_DoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DB92E219A4309C00AEBFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB92EB19A4309C00AEBFC3 /* CoreGraphics.framework in Frameworks */,
+				17DB92ED19A4309C00AEBFC3 /* UIKit.framework in Frameworks */,
+				17DB92E919A4309C00AEBFC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DB930319A4309C00AEBFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB930719A4309C00AEBFC3 /* XCTest.framework in Frameworks */,
+				17DB930919A4309C00AEBFC3 /* UIKit.framework in Frameworks */,
+				17DB930819A4309C00AEBFC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DB92DC19A4309C00AEBFC3 = {
+			isa = PBXGroup;
+			children = (
+				17DB92EE19A4309C00AEBFC3 /* Color Do */,
+				17DB930C19A4309C00AEBFC3 /* Color DoTests */,
+				17DB92E719A4309C00AEBFC3 /* Frameworks */,
+				17DB92E619A4309C00AEBFC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17DB92E619A4309C00AEBFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DB92E519A4309C00AEBFC3 /* Color Do.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DB92E719A4309C00AEBFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DB92E819A4309C00AEBFC3 /* Foundation.framework */,
+				17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */,
+				17DB92EC19A4309C00AEBFC3 /* UIKit.framework */,
+				17DB930619A4309C00AEBFC3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17DB92EE19A4309C00AEBFC3 /* Color Do */ = {
+			isa = PBXGroup;
+			children = (
+				17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */,
+				17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */,
+				17DB92FA19A4309C00AEBFC3 /* Main.storyboard */,
+				17DB92FD19A4309C00AEBFC3 /* PVViewController.h */,
+				17DB92FE19A4309C00AEBFC3 /* PVViewController.m */,
+				17DB930019A4309C00AEBFC3 /* Images.xcassets */,
+				17DB92EF19A4309C00AEBFC3 /* Supporting Files */,
+			);
+			path = "Color Do";
+			sourceTree = "<group>";
+		};
+		17DB92EF19A4309C00AEBFC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17DB92F019A4309C00AEBFC3 /* Color Do-Info.plist */,
+				17DB92F119A4309C00AEBFC3 /* InfoPlist.strings */,
+				17DB92F419A4309C00AEBFC3 /* main.m */,
+				17DB92F619A4309C00AEBFC3 /* Color Do-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17DB930C19A4309C00AEBFC3 /* Color DoTests */ = {
+			isa = PBXGroup;
+			children = (
+				17DB931219A4309C00AEBFC3 /* Color_DoTests.m */,
+				17DB930D19A4309C00AEBFC3 /* Supporting Files */,
+			);
+			path = "Color DoTests";
+			sourceTree = "<group>";
+		};
+		17DB930D19A4309C00AEBFC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17DB930E19A4309C00AEBFC3 /* Color DoTests-Info.plist */,
+				17DB930F19A4309C00AEBFC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DB92E419A4309C00AEBFC3 /* Color Do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Do" */;
+			buildPhases = (
+				17DB92E119A4309C00AEBFC3 /* Sources */,
+				17DB92E219A4309C00AEBFC3 /* Frameworks */,
+				17DB92E319A4309C00AEBFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Do";
+			productName = "Color Do";
+			productReference = 17DB92E519A4309C00AEBFC3 /* Color Do.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17DB930519A4309C00AEBFC3 /* Color DoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoTests" */;
+			buildPhases = (
+				17DB930219A4309C00AEBFC3 /* Sources */,
+				17DB930319A4309C00AEBFC3 /* Frameworks */,
+				17DB930419A4309C00AEBFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DB930B19A4309C00AEBFC3 /* PBXTargetDependency */,
+			);
+			name = "Color DoTests";
+			productName = "Color DoTests";
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DB92DD19A4309C00AEBFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pablo Varela";
+				TargetAttributes = {
+					17DB930519A4309C00AEBFC3 = {
+						TestTargetID = 17DB92E419A4309C00AEBFC3;
+					};
+				};
+			};
+			buildConfigurationList = 17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Do" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DB92DC19A4309C00AEBFC3;
+			productRefGroup = 17DB92E619A4309C00AEBFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DB92E419A4309C00AEBFC3 /* Color Do */,
+				17DB930519A4309C00AEBFC3 /* Color DoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DB92E319A4309C00AEBFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB930119A4309C00AEBFC3 /* Images.xcassets in Resources */,
+				17DB92F319A4309C00AEBFC3 /* InfoPlist.strings in Resources */,
+				17DB92FC19A4309C00AEBFC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DB930419A4309C00AEBFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB931119A4309C00AEBFC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DB92E119A4309C00AEBFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB92FF19A4309C00AEBFC3 /* PVViewController.m in Sources */,
+				17DB92F919A4309C00AEBFC3 /* PVAppDelegate.m in Sources */,
+				17DB92F519A4309C00AEBFC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DB930219A4309C00AEBFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB931319A4309C00AEBFC3 /* Color_DoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DB930B19A4309C00AEBFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DB92E419A4309C00AEBFC3 /* Color Do */;
+			targetProxy = 17DB930A19A4309C00AEBFC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17DB92F119A4309C00AEBFC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DB92F219A4309C00AEBFC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17DB92FA19A4309C00AEBFC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DB92FB19A4309C00AEBFC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17DB930F19A4309C00AEBFC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DB931019A4309C00AEBFC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DB931419A4309C00AEBFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17DB931519A4309C00AEBFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DB931719A4309C00AEBFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17DB931819A4309C00AEBFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17DB931A19A4309C00AEBFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Do.app/Color Do";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Color DoTests/Color DoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17DB931B19A4309C00AEBFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Do.app/Color Do";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				INFOPLIST_FILE = "Color DoTests/Color DoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DB931419A4309C00AEBFC3 /* Debug */,
+				17DB931519A4309C00AEBFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DB931719A4309C00AEBFC3 /* Debug */,
+				17DB931819A4309C00AEBFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DB931A19A4309C00AEBFC3 /* Debug */,
+				17DB931B19A4309C00AEBFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DB92DD19A4309C00AEBFC3 /* Project object */;
+}

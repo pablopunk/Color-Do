@@ -30,6 +30,14 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Aller_Bd.ttf</string>
+		<string>Aller_BdIt.ttf</string>
+		<string>Aller_Lt.ttf</string>
+		<string>Aller_Rg.ttf</string>
+		<string>AllerDisplay.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

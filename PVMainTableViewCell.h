@@ -1,5 +1,5 @@
 //
-//  PVViewController.h
+//  PVMainTableViewCell.h
 //  Color Do
 //
 //  Created by Pablo Varela on 20/08/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Ayuda.h"
 
-@interface PVViewController : UIViewController
+@interface PVMainTableViewCell : UITableViewCell
 
 @end

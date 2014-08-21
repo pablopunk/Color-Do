@@ -59,9 +59,11 @@
 {
     
     NSString *trimmedTextField = [textField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+    PVSecondTableViewController* supertable = (PVSecondTableViewController*) self.superTable;
     
     if ([trimmedTextField  isEqual: @""]) {
-        [self.superTable.items removeObjectAtIndex:[self.superTable.tableView indexPathForCell:self].row];
+        
+        [supertable.items removeObjectAtIndex:[self.superTable.tableView indexPathForCell:self].row];
         
     } else {
         PVListItem* nuevo = [[PVListItem alloc] init];
@@ -69,19 +71,19 @@
         nuevo.color = self.item.color;
         
         if ([self.superTable.tableView indexPathForCell:self].row == 0) {
-            [self.superTable.items removeObjectAtIndex:0];
-            [self.superTable.items insertObject:nuevo atIndex:0];
+            [supertable.items removeObjectAtIndex:0];
+            [supertable.items insertObject:nuevo atIndex:0];
             self.isBeingEditedForTheFirstTime = NO;
             
         } else {
-            [self.superTable.items replaceObjectAtIndex:[self.superTable.tableView indexPathForCell:self].row withObject:nuevo];
+            [supertable.items replaceObjectAtIndex:[self.superTable.tableView indexPathForCell:self].row withObject:nuevo];
         }
         
-        [self.superTable guardarDatos];
+        [supertable guardarDatos];
     }
     
     [self desaparecerBotones];
-    [self.superTable refreshTable];
+    [supertable refreshTable];
 }
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
@@ -161,9 +163,10 @@
 - (void)changeToRed {
     //NSInteger index = [self.superTable.tableView indexPathForCell:self].row;
     self.item.color = red;
+    PVSecondTableViewController* supertable = (PVSecondTableViewController*) self.superTable;
     
     if (![self isBeingEditedForTheFirstTime]) {
-        [self.superTable refreshTable];
+        [supertable refreshTable];
     } else {
         [self setBackgroundColor: UIColorFromRGB(REDCOLORHEX)];
     }
@@ -171,9 +174,10 @@
 
 - (void)changeToGreen {
     self.item.color = green;
+    PVSecondTableViewController* supertable = (PVSecondTableViewController*) self.superTable;
     
     if (![self isBeingEditedForTheFirstTime]) {
-        [self.superTable refreshTable];
+        [supertable refreshTable];
     } else {
         [self setBackgroundColor: UIColorFromRGB(GREENCOLORHEX)];
     }
@@ -181,9 +185,10 @@
 
 - (void)changeToYellow {
     self.item.color = yellow;
+    PVSecondTableViewController* supertable = (PVSecondTableViewController*) self.superTable;
     
     if (![self isBeingEditedForTheFirstTime]) {
-        [self.superTable refreshTable];
+        [supertable refreshTable];
     } else {
         [self setBackgroundColor: UIColorFromRGB(YELLOWCOLORHEX)];
     }
@@ -191,9 +196,10 @@
 
 - (void)changeToBlue {
     self.item.color = blue;
+    PVSecondTableViewController* supertable = (PVSecondTableViewController*) self.superTable;
     
     if (![self isBeingEditedForTheFirstTime]) {
-        [self.superTable refreshTable];
+        [supertable refreshTable];
     } else {
         [self setBackgroundColor: UIColorFromRGB(BLUECOLORHEX)];
     }

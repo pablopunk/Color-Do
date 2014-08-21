@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171C8D8819A6982600B4470D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 171C8D8719A6982600B4470D /* settings.png */; };
+		171C8D8B19A698E100B4470D /* PVThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C8D8A19A698E100B4470D /* PVThirdTableViewController.m */; };
 		177750AB19A540B500EBC044 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509B19A540B500EBC044 /* AppIcon29x29.png */; };
 		177750AC19A540B500EBC044 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509C19A540B500EBC044 /* AppIcon29x29@2x.png */; };
 		177750AD19A540B500EBC044 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509D19A540B500EBC044 /* AppIcon40x40.png */; };
@@ -23,6 +25,8 @@
 		177750B819A540B500EBC044 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177750A819A540B500EBC044 /* AppIcon76x76@2x.png */; };
 		177750B919A540B500EBC044 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 177750A919A540B500EBC044 /* iTunesArtwork.png */; };
 		177750BA19A540B500EBC044 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177750AA19A540B500EBC044 /* iTunesArtwork@2x.png */; };
+		1789349619A6921300310CDB /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789349419A6921300310CDB /* todo.png */; };
+		1789349A19A694FE00310CDB /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789349919A694FE00310CDB /* list.png */; };
 		17DB92E919A4309C00AEBFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92E819A4309C00AEBFC3 /* Foundation.framework */; };
 		17DB92EB19A4309C00AEBFC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */; };
 		17DB92ED19A4309C00AEBFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EC19A4309C00AEBFC3 /* UIKit.framework */; };
@@ -36,9 +40,7 @@
 		17DB930919A4309C00AEBFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EC19A4309C00AEBFC3 /* UIKit.framework */; };
 		17DB931119A4309C00AEBFC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DB930F19A4309C00AEBFC3 /* InfoPlist.strings */; };
 		17DB931319A4309C00AEBFC3 /* Color_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB931219A4309C00AEBFC3 /* Color_DoTests.m */; };
-		17DB931E19A431D600AEBFC3 /* PVMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB931D19A431D600AEBFC3 /* PVMainTableViewController.m */; };
 		17DB932419A4339900AEBFC3 /* PVSecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB932319A4339900AEBFC3 /* PVSecondTableViewController.m */; };
-		17DB932719A43DAE00AEBFC3 /* PVMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB932619A43DAE00AEBFC3 /* PVMainTableViewCell.m */; };
 		17DB932C19A43DDD00AEBFC3 /* PVSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB932B19A43DDD00AEBFC3 /* PVSecondTableViewCell.m */; };
 		17DB934D19A449F300AEBFC3 /* Aller Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17DB934519A449F300AEBFC3 /* Aller Font License.txt */; };
 		17DB934E19A449F300AEBFC3 /* Aller_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DB934619A449F300AEBFC3 /* Aller_Bd.ttf */; };
@@ -62,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171C8D8719A6982600B4470D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		171C8D8919A698E100B4470D /* PVThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVThirdTableViewController.h; sourceTree = "<group>"; };
+		171C8D8A19A698E100B4470D /* PVThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVThirdTableViewController.m; sourceTree = "<group>"; };
 		1777509B19A540B500EBC044 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
 		1777509C19A540B500EBC044 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		1777509D19A540B500EBC044 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
@@ -78,6 +83,8 @@
 		177750A819A540B500EBC044 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
 		177750A919A540B500EBC044 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		177750AA19A540B500EBC044 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1789349419A6921300310CDB /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
+		1789349919A694FE00310CDB /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,12 +101,8 @@
 		17DB930E19A4309C00AEBFC3 /* Color DoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color DoTests-Info.plist"; sourceTree = "<group>"; };
 		17DB931019A4309C00AEBFC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DB931219A4309C00AEBFC3 /* Color_DoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_DoTests.m; sourceTree = "<group>"; };
-		17DB931C19A431D600AEBFC3 /* PVMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMainTableViewController.h; sourceTree = "<group>"; };
-		17DB931D19A431D600AEBFC3 /* PVMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMainTableViewController.m; sourceTree = "<group>"; };
 		17DB932219A4339900AEBFC3 /* PVSecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSecondTableViewController.h; sourceTree = "<group>"; };
 		17DB932319A4339900AEBFC3 /* PVSecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSecondTableViewController.m; sourceTree = "<group>"; };
-		17DB932519A43DAE00AEBFC3 /* PVMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVMainTableViewCell.h; path = ../PVMainTableViewCell.h; sourceTree = "<group>"; };
-		17DB932619A43DAE00AEBFC3 /* PVMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVMainTableViewCell.m; path = ../PVMainTableViewCell.m; sourceTree = "<group>"; };
 		17DB932A19A43DDD00AEBFC3 /* PVSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSecondTableViewCell.h; sourceTree = "<group>"; };
 		17DB932B19A43DDD00AEBFC3 /* PVSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSecondTableViewCell.m; sourceTree = "<group>"; };
 		17DB932D19A43E6300AEBFC3 /* Ayuda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ayuda.h; sourceTree = "<group>"; };
@@ -162,6 +165,16 @@
 			path = "App Icon [Rounded]";
 			sourceTree = "<group>";
 		};
+		1789349219A68F1C00310CDB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				171C8D8719A6982600B4470D /* settings.png */,
+				1789349919A694FE00310CDB /* list.png */,
+				1789349419A6921300310CDB /* todo.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		17DB92DC19A4309C00AEBFC3 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +223,7 @@
 		17DB92EF19A4309C00AEBFC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1789349219A68F1C00310CDB /* img */,
 				1777509A19A540B500EBC044 /* App Icon [Rounded] */,
 				17DB934419A449F300AEBFC3 /* Aller */,
 				17DB932D19A43E6300AEBFC3 /* Ayuda.h */,
@@ -242,8 +256,6 @@
 		17DB932819A43DBA00AEBFC3 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				17DB932519A43DAE00AEBFC3 /* PVMainTableViewCell.h */,
-				17DB932619A43DAE00AEBFC3 /* PVMainTableViewCell.m */,
 				17DB932A19A43DDD00AEBFC3 /* PVSecondTableViewCell.h */,
 				17DB932B19A43DDD00AEBFC3 /* PVSecondTableViewCell.m */,
 			);
@@ -253,10 +265,10 @@
 		17DB932919A43DC500AEBFC3 /* TableViews */ = {
 			isa = PBXGroup;
 			children = (
-				17DB931C19A431D600AEBFC3 /* PVMainTableViewController.h */,
-				17DB931D19A431D600AEBFC3 /* PVMainTableViewController.m */,
 				17DB932219A4339900AEBFC3 /* PVSecondTableViewController.h */,
 				17DB932319A4339900AEBFC3 /* PVSecondTableViewController.m */,
+				171C8D8919A698E100B4470D /* PVThirdTableViewController.h */,
+				171C8D8A19A698E100B4470D /* PVThirdTableViewController.m */,
 			);
 			name = TableViews;
 			sourceTree = "<group>";
@@ -358,7 +370,9 @@
 				177750B119A540B500EBC044 /* AppIcon57x57.png in Resources */,
 				17DB930119A4309C00AEBFC3 /* Images.xcassets in Resources */,
 				17DB92F319A4309C00AEBFC3 /* InfoPlist.strings in Resources */,
+				171C8D8819A6982600B4470D /* settings.png in Resources */,
 				17DB935319A449F300AEBFC3 /* Aller_Rg.ttf in Resources */,
+				1789349619A6921300310CDB /* todo.png in Resources */,
 				17DB934F19A449F300AEBFC3 /* Aller_BdIt.ttf in Resources */,
 				17DB934E19A449F300AEBFC3 /* Aller_Bd.ttf in Resources */,
 				177750AE19A540B500EBC044 /* AppIcon40x40@2x.png in Resources */,
@@ -378,6 +392,7 @@
 				177750AD19A540B500EBC044 /* AppIcon40x40.png in Resources */,
 				177750B819A540B500EBC044 /* AppIcon76x76@2x.png in Resources */,
 				177750B619A540B500EBC044 /* AppIcon72x72@2x.png in Resources */,
+				1789349A19A694FE00310CDB /* list.png in Resources */,
 				177750AF19A540B500EBC044 /* AppIcon50x50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,9 +416,8 @@
 				17DB935719A44D4F00AEBFC3 /* PVListItem.m in Sources */,
 				17DB932419A4339900AEBFC3 /* PVSecondTableViewController.m in Sources */,
 				17DB92F519A4309C00AEBFC3 /* main.m in Sources */,
-				17DB931E19A431D600AEBFC3 /* PVMainTableViewController.m in Sources */,
-				17DB932719A43DAE00AEBFC3 /* PVMainTableViewCell.m in Sources */,
 				17DB932C19A43DDD00AEBFC3 /* PVSecondTableViewCell.m in Sources */,
+				171C8D8B19A698E100B4470D /* PVThirdTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

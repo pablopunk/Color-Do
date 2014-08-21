@@ -15,7 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) PVListItem* item;
-@property (weak, nonatomic) PVSecondTableViewController* superTable;
+@property (weak, nonatomic) UITableViewController* superTable;
 @property BOOL isBeingEditedForTheFirstTime;
 
 @property (nonatomic, retain) UIView* buttonView;

@@ -14,9 +14,24 @@
 @interface PVSecondTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
-
+@property (weak, nonatomic) PVListItem* item;
 @property (weak, nonatomic) PVSecondTableViewController* superTable;
+@property BOOL isBeingEditedForTheFirstTime;
+
+@property (nonatomic, retain) UIView* buttonView;
+@property (nonatomic, retain) UIButton* redButton;
+@property (nonatomic, retain) UIButton* blueButton;
+@property (nonatomic, retain) UIButton* greenButton;
+@property (nonatomic, retain) UIButton* yellowButton;
 
 - (PVSecondTableViewCell*) inicializar:(PVListItem *) item;
+
+- (void)changeToRed;
+- (void)changeToGreen;
+- (void)changeToYellow;
+- (void)changeToBlue;
+
+-(void)desaparecerBotones;
+-(BOOL)textFieldShouldReturn:(UITextField *)textField;
 
 @end

@@ -75,15 +75,39 @@
     
     
     items = [[NSMutableArray alloc] init];
-    [items addObject:primerItem];
-    [items addObject:segundoItem];
-    [items addObject:tercerItem];
-    [items addObject:cuartoItem];
+//    [items addObject:primerItem];
+//    [items addObject:segundoItem];
+//    [items addObject:tercerItem];
+//    [items addObject:cuartoItem];
     
+    // Cargar items
+    [self cargarItemsGuardados];
+    
+}
+
+- (void)cargarItemsGuardados {
+    NSInteger count = [[NSUserDefaults standardUserDefaults] integerForKey:[NSString stringWithFormat:@"count"]];
+    
+    for (int i=0; i < count; i++) {
+        [self.items insertObject:[NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"item%i",i]]] atIndex:i];
+    }
 }
 
 - (void)addItem: (PVListItem*) item {
     [items addObject:item];
+    [self guardarDatos];
+}
+
+- (void) guardarDatos {
+    NSData* temp;
+    
+    [[NSUserDefaults standardUserDefaults] setInteger:[self.items count] forKey:@"count"];
+    
+    for (int i=0; i < [items count]; i++) {
+        temp = [NSKeyedArchiver archivedDataWithRootObject:[items objectAtIndex:i]];
+        [[NSUserDefaults standardUserDefaults] setObject:temp forKey:[NSString stringWithFormat:@"item%i",i]];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
 }
 
 - (void)rightSwipeHandle:(UISwipeGestureRecognizer*)gestureRecognizer
@@ -119,8 +143,9 @@
     PVSecondTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell = [cell inicializar:[items objectAtIndex:indexPath.row]];
     cell.superTable = self;
+    cell.item = [self.items objectAtIndex:indexPath.row];
+    cell = [cell inicializar:[items objectAtIndex:indexPath.row]];
     
     return cell;
 }
@@ -132,9 +157,21 @@
 // Swipe to delete
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [self.items removeObjectAtIndex:indexPath.row];
-        [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-        [self refreshTable];
+        PVSecondTableViewCell* celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
+        NSString* trimmedText = [celda.textField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+        
+        if (indexPath.row > 0) {
+            [self.items removeObjectAtIndex:indexPath.row];
+            [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            [self refreshTable];
+
+        } else if ([trimmedText isEqualToString:@""]){
+            [celda.textLabel resignFirstResponder];
+        } else {
+            [self.items removeObjectAtIndex:indexPath.row];
+            [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            [self refreshTable];
+        }
     }
 }
 
@@ -142,7 +179,12 @@
     PVListItem *item, *item1;
     
     for (int i = 0; i < [self.items count]; i++) {
+        
         item = [self.items objectAtIndex:i];
+        PVSecondTableViewCell* celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:i inSection:0]];
+        [celda desaparecerBotones];
+        [celda textFieldShouldReturn:celda.textField];
+        
         if (i < [self.items count]-1) {
             item1 = [self.items objectAtIndex:i+1];
             if (item.color == item1.color) {
@@ -167,7 +209,10 @@
         }
     }
     
-    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+    [self guardarDatos];
+    
+    //[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationNone];
+    [self.tableView reloadData];
 }
 
 //#pragma mark - UIScrollViewDelegate
@@ -202,17 +247,20 @@
     
     PVSecondTableViewCell* celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
     
-    NSString* trimmedText = [celda.textField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+   NSString* trimmedText = [celda.textField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+
     
-    if (![trimmedText isEqualToString:@""]) {
+    if (![trimmedText isEqualToString: @""]) {
         PVListItem* nuevo = [[PVListItem alloc] init];
         nuevo.color = blue;
+        nuevo.titulo = @"";
         [items insertObject:nuevo atIndex:0];
         [self refreshTable];
-        
-        celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
-        [celda.textField becomeFirstResponder];
     }
+    
+    celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
+    [celda.textField becomeFirstResponder];
+    celda.isBeingEditedForTheFirstTime = YES;
 }
 
 // Drag and drop para mover celdas
@@ -227,12 +275,16 @@
     static UIView       *snapshot = nil;        ///< A snapshot of the row user is moving.
     static NSIndexPath  *sourceIndexPath = nil; ///< Initial index path, where gesture begins.
     
+    //PROPIO: desactivar el teclado cuando empieza el drag
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    [cell endEditing:YES];
+    
     switch (state) {
         case UIGestureRecognizerStateBegan: {
             if (indexPath) {
                 sourceIndexPath = indexPath;
                 
-                UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+                cell = [self.tableView cellForRowAtIndexPath:indexPath];
                 
                 // Take a snapshot of the selected row using helper method.
                 snapshot = [self customSnapshotFromView:cell];
@@ -301,6 +353,9 @@
                 sourceIndexPath = nil;
                 [snapshot removeFromSuperview];
                 snapshot = nil;
+                
+                // PROPIO: Para refrescar colores
+                [self refreshTable];
                 
             }];
             break;

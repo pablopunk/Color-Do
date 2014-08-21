@@ -12,7 +12,9 @@
 @interface PVSecondTableViewController : UITableViewController
 
 @property (nonatomic, retain) NSMutableArray* items;
-- (void)addItem: (PVListItem*) item;
-- (void)refreshTable;
+- (void) addItem: (PVListItem*) item;
+- (void) refreshTable;
+- (void) guardarDatos;
+- (void)cargarItemsGuardados;
 
 @end

@@ -58,4 +58,22 @@
     return nil;
 }
 
+// Metodos para compresion a NSUserDefaults
+- (void)encodeWithCoder:(NSCoder *)coder;
+{
+    [coder encodeObject:[self titulo] forKey:@"titulo"];
+    [coder encodeObject:[NSNumber numberWithInt:self.color] forKey:@"color"];
+}
+
+- (id)initWithCoder:(NSCoder *)coder;
+{
+    self = [super init];
+    if (self != nil)
+    {
+        self.titulo = [coder decodeObjectForKey:@"titulo"];
+        self.color = [[coder decodeObjectForKey:@"color"] intValue];
+    }
+    return self;
+}
+
 @end

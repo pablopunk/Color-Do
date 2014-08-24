@@ -27,6 +27,7 @@
 		177750BA19A540B500EBC044 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177750AA19A540B500EBC044 /* iTunesArtwork@2x.png */; };
 		1789349619A6921300310CDB /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789349419A6921300310CDB /* todo.png */; };
 		1789349A19A694FE00310CDB /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789349919A694FE00310CDB /* list.png */; };
+		1789F89219AA3255006F83ED /* PVMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1789F89119AA3255006F83ED /* PVMenuViewController.m */; };
 		17DB92E919A4309C00AEBFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92E819A4309C00AEBFC3 /* Foundation.framework */; };
 		17DB92EB19A4309C00AEBFC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */; };
 		17DB92ED19A4309C00AEBFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB92EC19A4309C00AEBFC3 /* UIKit.framework */; };
@@ -85,6 +86,8 @@
 		177750AA19A540B500EBC044 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		1789349419A6921300310CDB /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
 		1789349919A694FE00310CDB /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		1789F89019AA3255006F83ED /* PVMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuViewController.h; sourceTree = "<group>"; };
+		1789F89119AA3255006F83ED /* PVMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuViewController.m; sourceTree = "<group>"; };
 		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,6 +178,24 @@
 			name = img;
 			sourceTree = "<group>";
 		};
+		1789F88E19AA321B006F83ED /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				17DB935519A44D4F00AEBFC3 /* PVListItem.h */,
+				17DB935619A44D4F00AEBFC3 /* PVListItem.m */,
+			);
+			name = Objetos;
+			sourceTree = "<group>";
+		};
+		1789F88F19AA3227006F83ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1789F89019AA3255006F83ED /* PVMenuViewController.h */,
+				1789F89119AA3255006F83ED /* PVMenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		17DB92DC19A4309C00AEBFC3 = {
 			isa = PBXGroup;
 			children = (
@@ -207,8 +228,8 @@
 		17DB92EE19A4309C00AEBFC3 /* Color Do */ = {
 			isa = PBXGroup;
 			children = (
-				17DB935519A44D4F00AEBFC3 /* PVListItem.h */,
-				17DB935619A44D4F00AEBFC3 /* PVListItem.m */,
+				1789F88F19AA3227006F83ED /* ViewControllers */,
+				1789F88E19AA321B006F83ED /* Objetos */,
 				17DB932919A43DC500AEBFC3 /* TableViews */,
 				17DB932819A43DBA00AEBFC3 /* Cells */,
 				17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */,
@@ -414,6 +435,7 @@
 			files = (
 				17DB92F919A4309C00AEBFC3 /* PVAppDelegate.m in Sources */,
 				17DB935719A44D4F00AEBFC3 /* PVListItem.m in Sources */,
+				1789F89219AA3255006F83ED /* PVMenuViewController.m in Sources */,
 				17DB932419A4339900AEBFC3 /* PVSecondTableViewController.m in Sources */,
 				17DB92F519A4309C00AEBFC3 /* main.m in Sources */,
 				17DB932C19A43DDD00AEBFC3 /* PVSecondTableViewCell.m in Sources */,

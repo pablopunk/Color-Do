@@ -55,6 +55,8 @@
     
     [self.countToDoLabel setText:[NSString stringWithFormat:@"%li",(long)countToDo]];
     [self.countToBuyLabel setText:[NSString stringWithFormat:@"%li",(long)countToBuy]];
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = countToDo+countToBuy;
 }
 
 /*

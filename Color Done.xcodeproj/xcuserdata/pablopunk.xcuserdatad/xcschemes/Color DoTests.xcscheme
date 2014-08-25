@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17DB930519A4309C00AEBFC3"
                BuildableName = "Color DoTests"
-               BlueprintName = "Color DoTests"
-               ReferencedContainer = "container:Color Do.xcodeproj">
+               BlueprintName = "Color DoneTests"
+               ReferencedContainer = "container:Color Done.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

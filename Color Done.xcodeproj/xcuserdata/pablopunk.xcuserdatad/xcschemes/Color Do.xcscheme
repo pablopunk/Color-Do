@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
                BuildableName = "Color Do.app"
-               BlueprintName = "Color Do"
-               ReferencedContainer = "container:Color Do.xcodeproj">
+               BlueprintName = "Color Done"
+               ReferencedContainer = "container:Color Done.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
             BuildableName = "Color Do.app"
-            BlueprintName = "Color Do"
-            ReferencedContainer = "container:Color Do.xcodeproj">
+            BlueprintName = "Color Done"
+            ReferencedContainer = "container:Color Done.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
             BuildableName = "Color Do.app"
-            BlueprintName = "Color Do"
-            ReferencedContainer = "container:Color Do.xcodeproj">
+            BlueprintName = "Color Done"
+            ReferencedContainer = "container:Color Done.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
             BuildableName = "Color Do.app"
-            BlueprintName = "Color Do"
-            ReferencedContainer = "container:Color Do.xcodeproj">
+            BlueprintName = "Color Done"
+            ReferencedContainer = "container:Color Done.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

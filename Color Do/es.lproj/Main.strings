@@ -18,7 +18,7 @@
 "7py-HT-jgj.text" = "Tutorial";
 
 /* Class = "IBUIButton"; normalTitle = "To buy"; ObjectID = "G9v-s2-7TY"; */
-"G9v-s2-7TY.normalTitle" = "To buy";
+"G9v-s2-7TY.normalTitle" = "Comprar";
 
 /* Class = "IBUIButton"; normalTitle = "Rate us!"; ObjectID = "L2j-0n-fTg"; */
 "L2j-0n-fTg.normalTitle" = "Valóranos!";
@@ -30,7 +30,7 @@
 "NVa-yD-Tli.normalTitle" = "pablovarela182@gmail.com";
 
 /* Class = "IBUIButton"; normalTitle = "To do"; ObjectID = "Run-wP-8Zg"; */
-"Run-wP-8Zg.normalTitle" = "To do";
+"Run-wP-8Zg.normalTitle" = "Tareas";
 
 /* Class = "IBUILabel"; text = "Tap an item to edit text and color"; ObjectID = "T9e-j3-VPC"; */
 "T9e-j3-VPC.text" = "Toca un elemento para editar su texto y color";

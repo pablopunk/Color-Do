@@ -48,6 +48,11 @@
     return self;
 }
 
+//- (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+//{
+//    return touch.view != self.textField;
+//}
+
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
     
     [textField resignFirstResponder];
@@ -83,6 +88,7 @@
     }
     
     [self desaparecerBotones];
+    [self.textField setUserInteractionEnabled:NO]; // Desabilitamos el single tap
     [supertable refreshTable];
 }
 
@@ -92,10 +98,9 @@
     // Botones en la primera celda
     if ([self.superTable.tableView indexPathForCell:self].row == 0) {
         // Barra de botones
-        self.buttonView = [[UIView alloc] initWithFrame:CGRectMake(self.frame.origin.x+20.0f, self.frame.origin.y+70.0f,self.frame.size.width-40.0f,50.0f)];
+        self.buttonView = [[UIView alloc] initWithFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y+70.0f,self.frame.size.width,50.0f)];
         [self.buttonView setBackgroundColor:[UIColor whiteColor]];
-        [self.buttonView setAlpha:0.8f];
-        self.buttonView.layer.cornerRadius = 10.0f;
+        [self.buttonView setAlpha:0.9f];
         [self.superTable.view addSubview:self.buttonView];
         
         // Colores
@@ -125,10 +130,9 @@
         
     } else {
         // Barra de botones
-        self.buttonView = [[UIView alloc] initWithFrame:CGRectMake(self.frame.origin.x+20.0f, self.frame.origin.y-50.0f,self.frame.size.width-40.0f,50.0f)];
+        self.buttonView = [[UIView alloc] initWithFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y-50.0f,self.frame.size.width,50.0f)];
         [self.buttonView setBackgroundColor:[UIColor whiteColor]];
-        [self.buttonView setAlpha:0.8f];
-        self.buttonView.layer.cornerRadius = 10.0f;
+        [self.buttonView setAlpha:0.9f];
         [self.superTable.view addSubview:self.buttonView];
         
         // Colores

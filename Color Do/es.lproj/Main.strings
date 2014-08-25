@@ -1,0 +1,69 @@
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "0Hb-2m-Kh7"; */
+"0Hb-2m-Kh7.text" = "12";
+
+/* Class = "IBUILabel"; text = "Swipe left to delete completed items"; ObjectID = "14d-hz-SLy"; */
+"14d-hz-SLy.text" = "Desliza a la izquierda para borrar los elementos completados";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "1RQ-ju-AU9"; */
+"1RQ-ju-AU9.text" = "Tutorial";
+
+/* Class = "IBUIButton"; normalTitle = "www.pablopunk.com"; ObjectID = "37h-W5-ZD1"; */
+"37h-W5-ZD1.normalTitle" = "www.pablopunk.com";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "4Jk-ly-H4u"; */
+"4Jk-ly-H4u.text" = "Tutorial";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "7py-HT-jgj"; */
+"7py-HT-jgj.text" = "Tutorial";
+
+/* Class = "IBUIButton"; normalTitle = "To buy"; ObjectID = "G9v-s2-7TY"; */
+"G9v-s2-7TY.normalTitle" = "To buy";
+
+/* Class = "IBUIButton"; normalTitle = "Rate us!"; ObjectID = "L2j-0n-fTg"; */
+"L2j-0n-fTg.normalTitle" = "Valóranos!";
+
+/* Class = "IBUILabel"; text = "Drag and drop your items to get them ordered"; ObjectID = "MSM-DH-sG8"; */
+"MSM-DH-sG8.text" = "Arrastra los elementos para ordenarlos";
+
+/* Class = "IBUIButton"; normalTitle = "pablovarela182@gmail.com"; ObjectID = "NVa-yD-Tli"; */
+"NVa-yD-Tli.normalTitle" = "pablovarela182@gmail.com";
+
+/* Class = "IBUIButton"; normalTitle = "To do"; ObjectID = "Run-wP-8Zg"; */
+"Run-wP-8Zg.normalTitle" = "To do";
+
+/* Class = "IBUILabel"; text = "Tap an item to edit text and color"; ObjectID = "T9e-j3-VPC"; */
+"T9e-j3-VPC.text" = "Toca un elemento para editar su texto y color";
+
+/* Class = "IBUIButton"; normalTitle = "Info"; ObjectID = "TW9-Ec-Q3g"; */
+"TW9-Ec-Q3g.normalTitle" = "Info";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "WCL-4z-Q01"; */
+"WCL-4z-Q01.text" = "Tutorial";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "Zla-ha-UlJ"; */
+"Zla-ha-UlJ.text" = "Tutorial";
+
+/* Class = "IBUILabel"; text = "This is the main menu. Two lists for tasks and shopping items."; ObjectID = "a7I-HQ-jke"; */
+"a7I-HQ-jke.text" = "Este es el menú. Dos listas para tus tareas y lista de la compra.";
+
+/* Class = "IBUIButton"; normalTitle = "Tutorial"; ObjectID = "bdb-eY-WJS"; */
+"bdb-eY-WJS.normalTitle" = "Tutorial";
+
+/* Class = "IBUILabel"; text = "Drag your items down to create a new item"; ObjectID = "cTf-oO-B2z"; */
+"cTf-oO-B2z.text" = "Arrastra hacia abajo para crear un nuevo elemento";
+
+/* Class = "IBUILabel"; text = "Tutorial"; ObjectID = "d4K-gP-dmG"; */
+"d4K-gP-dmG.text" = "Tutorial";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "ddv-uT-yOc"; */
+"ddv-uT-yOc.text" = "12";
+
+/* Class = "IBUILabel"; text = "Organize your items with colors and prioritize them with order"; ObjectID = "gli-XT-tEv"; */
+"gli-XT-tEv.text" = "Organízate con varios colores y prioriza ordenándolos";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "grV-an-lvA"; */
+"grV-an-lvA.normalTitle" = "Preferencias";
+
+/* Class = "IBUILabel"; text = "Creada por Pablo Varela"; ObjectID = "pH3-JA-ymZ"; */
+"pH3-JA-ymZ.text" = "Creada por Pablo Varela";

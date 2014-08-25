@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MKiCloudSync.h"
 
 @interface PVAppDelegate : UIResponder <UIApplicationDelegate>
 

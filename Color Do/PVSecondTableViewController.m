@@ -47,6 +47,10 @@
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureRecognized:)];
     [self.tableView addGestureRecognizer:longPress];
     
+    // Single tap
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureRecognized:)];
+    [self.tableView addGestureRecognizer:singleTap];
+
     // Refreshing
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     CGFloat screenWidth = screenRect.size.width;
@@ -118,6 +122,16 @@
     [navController popViewControllerAnimated:YES];
 }
 
+- (void)singleTapGestureRecognized:(UITapGestureRecognizer*)sender {
+    
+    CGPoint location = [sender locationInView:self.tableView];
+    NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:location];
+    
+    PVSecondTableViewCell *cell = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
+    [cell.textField setUserInteractionEnabled:YES];
+    [cell.textField becomeFirstResponder];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -146,6 +160,7 @@
     cell.superTable = self;
     cell.item = [self.items objectAtIndex:indexPath.row];
     cell = [cell inicializar:[items objectAtIndex:indexPath.row]];
+    [cell.textField setUserInteractionEnabled:NO]; // No permitimos la edicion por defecto
     
     return cell;
 }
@@ -156,21 +171,26 @@
 
 // Swipe to delete
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    PVSecondTableViewCell* cell = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
+    
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         PVSecondTableViewCell* celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
         NSString* trimmedText = [celda.textField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
         
-        if (indexPath.row > 0) {
-            [self.items removeObjectAtIndex:indexPath.row];
+        if (indexPath.row > 0 && !cell.textField.isEditing) {
+            [items removeObjectAtIndex:indexPath.row];
             [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
             [self refreshTable];
-
+            
         } else if ([trimmedText isEqualToString:@""]){
             [celda.textLabel resignFirstResponder];
         } else {
-            [self.items removeObjectAtIndex:indexPath.row];
-            [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-            [self refreshTable];
+            if (!cell.textField.isEditing) {
+                [items removeObjectAtIndex:indexPath.row];
+                [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+                [self refreshTable];
+            }
         }
     }
 }
@@ -210,6 +230,7 @@
     }
     
     [self guardarDatos];
+    [self cargarCounts];
     
     //[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationNone];
     [self.tableView reloadData];
@@ -259,6 +280,7 @@
     }
     
     celda = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
+    [celda.textField setUserInteractionEnabled:YES]; // Activamos el single tap
     [celda.textField becomeFirstResponder];
     celda.isBeingEditedForTheFirstTime = YES;
 }
@@ -276,15 +298,16 @@
     static NSIndexPath  *sourceIndexPath = nil; ///< Initial index path, where gesture begins.
     
     //PROPIO: desactivar el teclado cuando empieza el drag
-    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    PVSecondTableViewCell *cell = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
     [cell endEditing:YES];
+    [cell.textField setUserInteractionEnabled:NO]; // desactivar el single tap
     
     switch (state) {
         case UIGestureRecognizerStateBegan: {
             if (indexPath) {
                 sourceIndexPath = indexPath;
                 
-                cell = [self.tableView cellForRowAtIndexPath:indexPath];
+                cell = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
                 
                 // Take a snapshot of the selected row using helper method.
                 snapshot = [self customSnapshotFromView:cell];
@@ -336,7 +359,7 @@
         
         default: {
             // Clean up.
-            UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:sourceIndexPath];
+            PVSecondTableViewCell *cell = (PVSecondTableViewCell*) [self.tableView cellForRowAtIndexPath:sourceIndexPath];
             cell.hidden = NO;
             cell.alpha = 0.0;
             [UIView animateWithDuration:0.25 animations:^{
@@ -373,6 +396,14 @@
     snapshot.layer.shadowOpacity = 0.4;
     
     return snapshot;
+}
+
+
+- (void)cargarCounts {
+    NSInteger countToDo = [[NSUserDefaults standardUserDefaults] integerForKey:[NSString stringWithFormat:@"count"]];
+    NSInteger countToBuy = [[NSUserDefaults standardUserDefaults] integerForKey:[NSString stringWithFormat:@"count_buy"]];
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = countToDo+countToBuy;
 }
 
 /*

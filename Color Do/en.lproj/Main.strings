@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "0Hb-2m-Kh7"; */
+"0Hb-2m-Kh7.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "To buy"; ObjectID = "G9v-s2-7TY"; */
+"G9v-s2-7TY.normalTitle" = "To buy";
+
+/* Class = "IBUIButton"; normalTitle = "To do"; ObjectID = "Run-wP-8Zg"; */
+"Run-wP-8Zg.normalTitle" = "To do";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "ddv-uT-yOc"; */
+"ddv-uT-yOc.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "grV-an-lvA"; */
+"grV-an-lvA.normalTitle" = "Settings";

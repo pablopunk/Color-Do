@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		171C8D8819A6982600B4470D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 171C8D8719A6982600B4470D /* settings.png */; };
 		171C8D8B19A698E100B4470D /* PVThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C8D8A19A698E100B4470D /* PVThirdTableViewController.m */; };
+		173AC31119AB9B1B004744CB /* PVSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173AC31019AB9B1B004744CB /* PVSettingsViewController.m */; };
+		173AC31719ABA15A004744CB /* PVInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173AC31619ABA15A004744CB /* PVInfoViewController.m */; };
+		174D2EF119AB7FDE004424E1 /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D2EF019AB7FDE004424E1 /* MKiCloudSync.m */; };
+		174D2EF619AB82F6004424E1 /* flechaI.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EF419AB82F6004424E1 /* flechaI.png */; };
+		174D2EF719AB82F6004424E1 /* flechaD.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EF519AB82F6004424E1 /* flechaD.png */; };
+		174D2EFF19AB8CD3004424E1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EF919AB8CD3004424E1 /* 1.png */; };
+		174D2F0019AB8CD3004424E1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EFA19AB8CD3004424E1 /* 2.png */; };
+		174D2F0119AB8CD3004424E1 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EFB19AB8CD3004424E1 /* 3.png */; };
+		174D2F0219AB8CD3004424E1 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EFC19AB8CD3004424E1 /* 4.png */; };
+		174D2F0319AB8CD3004424E1 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EFD19AB8CD3004424E1 /* 5.png */; };
+		174D2F0419AB8CD3004424E1 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D2EFE19AB8CD3004424E1 /* 6.png */; };
 		177750AB19A540B500EBC044 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509B19A540B500EBC044 /* AppIcon29x29.png */; };
 		177750AC19A540B500EBC044 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509C19A540B500EBC044 /* AppIcon29x29@2x.png */; };
 		177750AD19A540B500EBC044 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1777509D19A540B500EBC044 /* AppIcon40x40.png */; };
@@ -68,6 +79,25 @@
 		171C8D8719A6982600B4470D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		171C8D8919A698E100B4470D /* PVThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVThirdTableViewController.h; sourceTree = "<group>"; };
 		171C8D8A19A698E100B4470D /* PVThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVThirdTableViewController.m; sourceTree = "<group>"; };
+		1723A3BD19AA9A2600A2C624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		173AC30F19AB9B1B004744CB /* PVSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSettingsViewController.h; sourceTree = "<group>"; };
+		173AC31019AB9B1B004744CB /* PVSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSettingsViewController.m; sourceTree = "<group>"; };
+		173AC31519ABA15A004744CB /* PVInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVInfoViewController.h; sourceTree = "<group>"; };
+		173AC31619ABA15A004744CB /* PVInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVInfoViewController.m; sourceTree = "<group>"; };
+		173AC31819ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		173AC31919ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		173AC31A19ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		174D2EEF19AB7FDE004424E1 /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
+		174D2EF019AB7FDE004424E1 /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
+		174D2EF319AB808B004424E1 /* Color Do.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Color Do.entitlements"; sourceTree = "<group>"; };
+		174D2EF419AB82F6004424E1 /* flechaI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flechaI.png; sourceTree = "<group>"; };
+		174D2EF519AB82F6004424E1 /* flechaD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flechaD.png; sourceTree = "<group>"; };
+		174D2EF919AB8CD3004424E1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		174D2EFA19AB8CD3004424E1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		174D2EFB19AB8CD3004424E1 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		174D2EFC19AB8CD3004424E1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		174D2EFD19AB8CD3004424E1 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		174D2EFE19AB8CD3004424E1 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		1777509B19A540B500EBC044 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
 		1777509C19A540B500EBC044 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		1777509D19A540B500EBC044 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
@@ -145,6 +175,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174D2EF219AB7FE5004424E1 /* Otros */ = {
+			isa = PBXGroup;
+			children = (
+				174D2EEF19AB7FDE004424E1 /* MKiCloudSync.h */,
+				174D2EF019AB7FDE004424E1 /* MKiCloudSync.m */,
+				17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */,
+				17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */,
+			);
+			name = Otros;
+			sourceTree = "<group>";
+		};
+		174D2EF819AB8C99004424E1 /* mockups */ = {
+			isa = PBXGroup;
+			children = (
+				174D2EF919AB8CD3004424E1 /* 1.png */,
+				174D2EFA19AB8CD3004424E1 /* 2.png */,
+				174D2EFB19AB8CD3004424E1 /* 3.png */,
+				174D2EFC19AB8CD3004424E1 /* 4.png */,
+				174D2EFD19AB8CD3004424E1 /* 5.png */,
+				174D2EFE19AB8CD3004424E1 /* 6.png */,
+			);
+			name = mockups;
+			sourceTree = "<group>";
+		};
 		1777509A19A540B500EBC044 /* App Icon [Rounded] */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +225,8 @@
 		1789349219A68F1C00310CDB /* img */ = {
 			isa = PBXGroup;
 			children = (
+				174D2EF419AB82F6004424E1 /* flechaI.png */,
+				174D2EF519AB82F6004424E1 /* flechaD.png */,
 				171C8D8719A6982600B4470D /* settings.png */,
 				1789349919A694FE00310CDB /* list.png */,
 				1789349419A6921300310CDB /* todo.png */,
@@ -192,6 +248,10 @@
 			children = (
 				1789F89019AA3255006F83ED /* PVMenuViewController.h */,
 				1789F89119AA3255006F83ED /* PVMenuViewController.m */,
+				173AC30F19AB9B1B004744CB /* PVSettingsViewController.h */,
+				173AC31019AB9B1B004744CB /* PVSettingsViewController.m */,
+				173AC31519ABA15A004744CB /* PVInfoViewController.h */,
+				173AC31619ABA15A004744CB /* PVInfoViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -228,12 +288,12 @@
 		17DB92EE19A4309C00AEBFC3 /* Color Do */ = {
 			isa = PBXGroup;
 			children = (
-				1789F88F19AA3227006F83ED /* ViewControllers */,
 				1789F88E19AA321B006F83ED /* Objetos */,
+				174D2EF319AB808B004424E1 /* Color Do.entitlements */,
+				174D2EF219AB7FE5004424E1 /* Otros */,
+				1789F88F19AA3227006F83ED /* ViewControllers */,
 				17DB932919A43DC500AEBFC3 /* TableViews */,
 				17DB932819A43DBA00AEBFC3 /* Cells */,
-				17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */,
-				17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */,
 				17DB92FA19A4309C00AEBFC3 /* Main.storyboard */,
 				17DB930019A4309C00AEBFC3 /* Images.xcassets */,
 				17DB92EF19A4309C00AEBFC3 /* Supporting Files */,
@@ -244,6 +304,7 @@
 		17DB92EF19A4309C00AEBFC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				174D2EF819AB8C99004424E1 /* mockups */,
 				1789349219A68F1C00310CDB /* img */,
 				1777509A19A540B500EBC044 /* App Icon [Rounded] */,
 				17DB934419A449F300AEBFC3 /* Aller */,
@@ -356,6 +417,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pablo Varela";
 				TargetAttributes = {
+					17DB92E419A4309C00AEBFC3 = {
+						DevelopmentTeam = 4WCM5KK2FC;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					17DB930519A4309C00AEBFC3 = {
 						TestTargetID = 17DB92E419A4309C00AEBFC3;
 					};
@@ -368,6 +437,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 17DB92DC19A4309C00AEBFC3;
 			productRefGroup = 17DB92E619A4309C00AEBFC3 /* Products */;
@@ -385,10 +455,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174D2F0219AB8CD3004424E1 /* 4.png in Resources */,
+				174D2EFF19AB8CD3004424E1 /* 1.png in Resources */,
+				174D2F0319AB8CD3004424E1 /* 5.png in Resources */,
 				17DB935419A449F300AEBFC3 /* AllerDisplay.ttf in Resources */,
+				174D2F0019AB8CD3004424E1 /* 2.png in Resources */,
 				177750B519A540B500EBC044 /* AppIcon72x72.png in Resources */,
+				174D2EF619AB82F6004424E1 /* flechaI.png in Resources */,
+				174D2F0119AB8CD3004424E1 /* 3.png in Resources */,
 				177750B219A540B500EBC044 /* AppIcon57x57@2x.png in Resources */,
 				177750B119A540B500EBC044 /* AppIcon57x57.png in Resources */,
+				174D2F0419AB8CD3004424E1 /* 6.png in Resources */,
+				174D2EF719AB82F6004424E1 /* flechaD.png in Resources */,
 				17DB930119A4309C00AEBFC3 /* Images.xcassets in Resources */,
 				17DB92F319A4309C00AEBFC3 /* InfoPlist.strings in Resources */,
 				171C8D8819A6982600B4470D /* settings.png in Resources */,
@@ -436,9 +514,12 @@
 				17DB92F919A4309C00AEBFC3 /* PVAppDelegate.m in Sources */,
 				17DB935719A44D4F00AEBFC3 /* PVListItem.m in Sources */,
 				1789F89219AA3255006F83ED /* PVMenuViewController.m in Sources */,
+				173AC31119AB9B1B004744CB /* PVSettingsViewController.m in Sources */,
+				173AC31719ABA15A004744CB /* PVInfoViewController.m in Sources */,
 				17DB932419A4339900AEBFC3 /* PVSecondTableViewController.m in Sources */,
 				17DB92F519A4309C00AEBFC3 /* main.m in Sources */,
 				17DB932C19A43DDD00AEBFC3 /* PVSecondTableViewCell.m in Sources */,
+				174D2EF119AB7FDE004424E1 /* MKiCloudSync.m in Sources */,
 				171C8D8B19A698E100B4470D /* PVThirdTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +547,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB92F219A4309C00AEBFC3 /* en */,
+				173AC31919ABA46B004744CB /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -474,6 +556,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB92FB19A4309C00AEBFC3 /* Base */,
+				1723A3BD19AA9A2600A2C624 /* en */,
+				173AC31819ABA46B004744CB /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -482,6 +566,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB931019A4309C00AEBFC3 /* en */,
+				173AC31A19ABA46B004744CB /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -564,10 +649,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Color Do/Color Do.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
 				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -577,10 +666,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Color Do/Color Do.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
 				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

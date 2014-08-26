@@ -118,20 +118,20 @@
 		1789349919A694FE00310CDB /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		1789F89019AA3255006F83ED /* PVMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuViewController.h; sourceTree = "<group>"; };
 		1789F89119AA3255006F83ED /* PVMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuViewController.m; sourceTree = "<group>"; };
-		17DB92E519A4309C00AEBFC3 /* Color Done.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Done.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17DB92EC19A4309C00AEBFC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		17DB92F019A4309C00AEBFC3 /* Color Done-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color Done-Info.plist"; sourceTree = "<group>"; };
+		17DB92F019A4309C00AEBFC3 /* Color Do-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color Do-Info.plist"; sourceTree = "<group>"; };
 		17DB92F219A4309C00AEBFC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DB92F419A4309C00AEBFC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17DB92F619A4309C00AEBFC3 /* Color Done-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color Done-Prefix.pch"; sourceTree = "<group>"; };
+		17DB92F619A4309C00AEBFC3 /* Color Do-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color Do-Prefix.pch"; sourceTree = "<group>"; };
 		17DB92F719A4309C00AEBFC3 /* PVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAppDelegate.h; sourceTree = "<group>"; };
 		17DB92F819A4309C00AEBFC3 /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
 		17DB92FB19A4309C00AEBFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17DB930019A4309C00AEBFC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17DB930619A4309C00AEBFC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		17DB930E19A4309C00AEBFC3 /* Color DoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color DoneTests-Info.plist"; sourceTree = "<group>"; };
+		17DB930E19A4309C00AEBFC3 /* Color DoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color DoTests-Info.plist"; sourceTree = "<group>"; };
 		17DB931019A4309C00AEBFC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DB931219A4309C00AEBFC3 /* Color_DoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_DoTests.m; sourceTree = "<group>"; };
 		17DB932219A4339900AEBFC3 /* PVSecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSecondTableViewController.h; sourceTree = "<group>"; };
@@ -269,7 +269,7 @@
 		17DB92E619A4309C00AEBFC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17DB92E519A4309C00AEBFC3 /* Color Done.app */,
+				17DB92E519A4309C00AEBFC3 /* Color Do.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,10 +309,10 @@
 				1777509A19A540B500EBC044 /* App Icon [Rounded] */,
 				17DB934419A449F300AEBFC3 /* Aller */,
 				17DB932D19A43E6300AEBFC3 /* Ayuda.h */,
-				17DB92F019A4309C00AEBFC3 /* Color Done-Info.plist */,
+				17DB92F019A4309C00AEBFC3 /* Color Do-Info.plist */,
 				17DB92F119A4309C00AEBFC3 /* InfoPlist.strings */,
 				17DB92F419A4309C00AEBFC3 /* main.m */,
-				17DB92F619A4309C00AEBFC3 /* Color Done-Prefix.pch */,
+				17DB92F619A4309C00AEBFC3 /* Color Do-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -329,7 +329,7 @@
 		17DB930D19A4309C00AEBFC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				17DB930E19A4309C00AEBFC3 /* Color DoneTests-Info.plist */,
+				17DB930E19A4309C00AEBFC3 /* Color DoTests-Info.plist */,
 				17DB930F19A4309C00AEBFC3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -373,9 +373,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17DB92E419A4309C00AEBFC3 /* Color Done */ = {
+		17DB92E419A4309C00AEBFC3 /* Color Do */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Done" */;
+			buildConfigurationList = 17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Do" */;
 			buildPhases = (
 				17DB92E119A4309C00AEBFC3 /* Sources */,
 				17DB92E219A4309C00AEBFC3 /* Frameworks */,
@@ -385,14 +385,14 @@
 			);
 			dependencies = (
 			);
-			name = "Color Done";
+			name = "Color Do";
 			productName = "Color Do";
-			productReference = 17DB92E519A4309C00AEBFC3 /* Color Done.app */;
+			productReference = 17DB92E519A4309C00AEBFC3 /* Color Do.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17DB930519A4309C00AEBFC3 /* Color DoneTests */ = {
+		17DB930519A4309C00AEBFC3 /* Color DoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoneTests" */;
+			buildConfigurationList = 17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoTests" */;
 			buildPhases = (
 				17DB930219A4309C00AEBFC3 /* Sources */,
 				17DB930319A4309C00AEBFC3 /* Frameworks */,
@@ -403,7 +403,7 @@
 			dependencies = (
 				17DB930B19A4309C00AEBFC3 /* PBXTargetDependency */,
 			);
-			name = "Color DoneTests";
+			name = "Color DoTests";
 			productName = "Color DoTests";
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -430,7 +430,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Done" */;
+			buildConfigurationList = 17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Do" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -444,8 +444,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17DB92E419A4309C00AEBFC3 /* Color Done */,
-				17DB930519A4309C00AEBFC3 /* Color DoneTests */,
+				17DB92E419A4309C00AEBFC3 /* Color Do */,
+				17DB930519A4309C00AEBFC3 /* Color DoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -537,7 +537,7 @@
 /* Begin PBXTargetDependency section */
 		17DB930B19A4309C00AEBFC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17DB92E419A4309C00AEBFC3 /* Color Done */;
+			target = 17DB92E419A4309C00AEBFC3 /* Color Do */;
 			targetProxy = 17DB930A19A4309C00AEBFC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -653,9 +653,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Color Do/Color Done-Prefix.pch";
-				INFOPLIST_FILE = "Color Do/Color Done-Info.plist";
-				PRODUCT_NAME = "Color Done";
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
+				PRODUCT_NAME = "Color Do";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -670,9 +670,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Color Do/Color Done-Prefix.pch";
-				INFOPLIST_FILE = "Color Do/Color Done-Info.plist";
-				PRODUCT_NAME = "Color Done";
+				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
+				INFOPLIST_FILE = "Color Do/Color Do-Info.plist";
+				PRODUCT_NAME = "Color Do";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -693,8 +693,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Color DoTests/Color DoneTests-Info.plist";
-				PRODUCT_NAME = "Color DoneTests";
+				INFOPLIST_FILE = "Color DoTests/Color DoTests-Info.plist";
+				PRODUCT_NAME = "Color DoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -711,8 +711,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Color Do/Color Do-Prefix.pch";
-				INFOPLIST_FILE = "Color DoTests/Color DoneTests-Info.plist";
-				PRODUCT_NAME = "Color DoneTests";
+				INFOPLIST_FILE = "Color DoTests/Color DoTests-Info.plist";
+				PRODUCT_NAME = "Color DoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -721,7 +721,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Done" */ = {
+		17DB92E019A4309C00AEBFC3 /* Build configuration list for PBXProject "Color Do" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17DB931419A4309C00AEBFC3 /* Debug */,
@@ -730,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Done" */ = {
+		17DB931619A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color Do" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17DB931719A4309C00AEBFC3 /* Debug */,
@@ -739,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoneTests" */ = {
+		17DB931919A4309C00AEBFC3 /* Build configuration list for PBXNativeTarget "Color DoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17DB931A19A4309C00AEBFC3 /* Debug */,

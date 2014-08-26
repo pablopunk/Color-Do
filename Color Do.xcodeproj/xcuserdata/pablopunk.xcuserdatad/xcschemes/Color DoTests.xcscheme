@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
-               BuildableName = "Color Done.app"
-               BlueprintName = "Color Done"
-               ReferencedContainer = "container:Color Done.xcodeproj">
+               BlueprintIdentifier = "17DB930519A4309C00AEBFC3"
+               BuildableName = "Color DoneTests"
+               BlueprintName = "Color DoTests"
+               ReferencedContainer = "container:Color Do.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
-            BuildableName = "Color Done.app"
-            BlueprintName = "Color Done"
-            ReferencedContainer = "container:Color Done.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
-            BuildableName = "Color Done.app"
-            BlueprintName = "Color Done"
-            ReferencedContainer = "container:Color Done.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -66,15 +48,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "17DB92E419A4309C00AEBFC3"
-            BuildableName = "Color Done.app"
-            BlueprintName = "Color Done"
-            ReferencedContainer = "container:Color Done.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

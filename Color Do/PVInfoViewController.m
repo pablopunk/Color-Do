@@ -72,7 +72,7 @@
 
 - (IBAction)rateUsButton:(id)sender {
     // Cambiar 'id' 409954448
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=409954448"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://itunes.apple.com/us/app/color-do-organize-with-colors/id912541576?l=es&ls=1&mt=8"]];
 
 }
 @end

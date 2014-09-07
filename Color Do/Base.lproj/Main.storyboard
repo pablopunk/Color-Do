@@ -229,6 +229,16 @@
                                 <color key="textColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAk-xQ-DJm">
+                                <rect key="frame" x="5" y="290" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaI.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="STs-iq-3Zi" kind="modal" modalTransitionStyle="flipHorizontal" id="rn9-Qs-SGI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85882352941176465" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -400,6 +410,9 @@
                                 <state key="normal" image="flechaI.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bAu-Be-OYb" kind="modal" modalTransitionStyle="crossDissolve" id="lHA-nK-1Wd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RQ-ju-AU9">
                                 <rect key="frame" x="20" y="20" width="280" height="40"/>
@@ -456,7 +469,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bAu-Be-OYb" kind="modal" modalTransitionStyle="crossDissolve" id="cOc-yC-n7b"/>
+                                    <segue destination="JRv-UL-Zwp" kind="modal" modalTransitionStyle="crossDissolve" id="9qO-Sd-BLS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCL-4z-Q01">
@@ -676,9 +689,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="lC9-IP-77B"/>
+        <segue reference="qLS-6R-AzG"/>
+        <segue reference="lHA-nK-1Wd"/>
+        <segue reference="rn9-Qs-SGI"/>
+        <segue reference="z7g-sP-Dzh"/>
         <segue reference="m8E-Cf-E28"/>
-        <segue reference="tl5-yb-RBr"/>
-        <segue reference="Cad-Uh-rz4"/>
-        <segue reference="6aa-dZ-e9c"/>
     </inferredMetricsTieBreakers>
 </document>

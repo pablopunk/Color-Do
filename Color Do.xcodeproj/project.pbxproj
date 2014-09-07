@@ -84,9 +84,6 @@
 		173AC31019AB9B1B004744CB /* PVSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSettingsViewController.m; sourceTree = "<group>"; };
 		173AC31519ABA15A004744CB /* PVInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVInfoViewController.h; sourceTree = "<group>"; };
 		173AC31619ABA15A004744CB /* PVInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVInfoViewController.m; sourceTree = "<group>"; };
-		173AC31819ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		173AC31919ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		173AC31A19ABA46B004744CB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		174D2EEF19AB7FDE004424E1 /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		174D2EF019AB7FDE004424E1 /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
 		174D2EF319AB808B004424E1 /* Color Do.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Color Do.entitlements"; sourceTree = "<group>"; };
@@ -118,6 +115,9 @@
 		1789349919A694FE00310CDB /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		1789F89019AA3255006F83ED /* PVMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuViewController.h; sourceTree = "<group>"; };
 		1789F89119AA3255006F83ED /* PVMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuViewController.m; sourceTree = "<group>"; };
+		17C4F23619BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		17C4F23719BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C4F23819BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -547,7 +547,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB92F219A4309C00AEBFC3 /* en */,
-				173AC31919ABA46B004744CB /* es */,
+				17C4F23719BCBF2F00CF3243 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -557,7 +557,7 @@
 			children = (
 				17DB92FB19A4309C00AEBFC3 /* Base */,
 				1723A3BD19AA9A2600A2C624 /* en */,
-				173AC31819ABA46B004744CB /* es */,
+				17C4F23619BCBF2F00CF3243 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -566,7 +566,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB931019A4309C00AEBFC3 /* en */,
-				173AC31A19ABA46B004744CB /* es */,
+				17C4F23819BCBF2F00CF3243 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

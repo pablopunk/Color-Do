@@ -67,3 +67,12 @@
 
 /* Class = "IBUILabel"; text = "Creada por Pablo Varela"; ObjectID = "pH3-JA-ymZ"; */
 "pH3-JA-ymZ.text" = "Creada por Pablo Varela";
+
+/* Class = "IBUILabel"; text = "Pull down to create an item"; ObjectID = "nsC-D4-tdH"; */
+"nsC-D4-tdH.text" = "Arrastra hacia abajo";
+
+/* Class = "IBUILabel"; text = "Created by Pablo Varela"; ObjectID = "pH3-JA-ymZ"; */
+"pH3-JA-ymZ.text" = "Created by Pablo Varela";
+
+/* Class = "IBUILabel"; text = "Pull down to create an item"; ObjectID = "szo-Ka-pNH"; */
+"szo-Ka-pNH.text" = "Arrastra hacia abajo";

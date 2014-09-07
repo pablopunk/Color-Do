@@ -10,8 +10,10 @@
 #import "PVListItem.h"
 
 @interface PVSecondTableViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UILabel *pullDownLabel;
 
 @property (nonatomic, retain) NSMutableArray* items;
+
 - (void) addItem: (PVListItem*) item;
 - (void) refreshTable;
 - (void) guardarDatos;

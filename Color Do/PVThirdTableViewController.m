@@ -88,6 +88,12 @@
     // Cargar items
     [self cargarItemsGuardados];
     
+    if ([self.items count] > 0){
+        self.pullDownLabel.alpha = 0.0f;
+    } else {
+        self.pullDownLabel.alpha = 1.0f;
+    }
+    
 }
 
 - (void)cargarItemsGuardados {
@@ -232,6 +238,12 @@
     
     [self guardarDatos];
     [self cargarCounts];
+    
+    if ([self.items count] > 0){
+        self.pullDownLabel.alpha = 0.0f;
+    } else {
+        self.pullDownLabel.alpha = 1.0f;
+    }
     
     //[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationNone];
     [self.tableView reloadData];

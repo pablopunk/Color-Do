@@ -13,6 +13,7 @@
 @interface PVThirdTableViewController : UITableViewController
 
 @property (nonatomic, retain) NSMutableArray* items;
+@property (weak, nonatomic) IBOutlet UILabel *pullDownLabel;
 - (void) addItem: (PVListItem*) item;
 - (void) refreshTable;
 - (void) guardarDatos;

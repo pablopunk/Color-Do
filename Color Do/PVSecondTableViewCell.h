@@ -12,7 +12,7 @@
 #import "PVSecondTableViewController.h"
 
 
-@interface PVSecondTableViewCell : UITableViewCell
+@interface PVSecondTableViewCell : UITableViewCell <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) PVListItem* item;

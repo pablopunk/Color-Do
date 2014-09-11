@@ -35,8 +35,10 @@
 - (PVSecondTableViewCell*) inicializar:(PVListItem *) item {
 
     self.backgroundColor = [self.item getColorHex];
+    [self setFrame:CGRectMake(0, self.frame.origin.y, self.frame.size.width, ROW_HEIGHT)];
 
     self.textField.delegate = self; // tiene los metodos de textField
+    //[self.textField setFrame:CGRectMake(self.textField.frame.origin.x, self.textField.frame.origin.y, self.textField.frame.size.width, ROW_HEIGHT)];
     [self.textField setBackgroundColor: [[UIColor alloc] initWithRed:0 green:0 blue:0 alpha:0]]; //transparente
     [self.textField setTextColor: [UIColor whiteColor]];
     [self.textField setFont: [UIFont fontWithName:@"Aller" size:18]];

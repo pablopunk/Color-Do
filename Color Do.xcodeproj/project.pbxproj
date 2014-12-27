@@ -99,6 +99,8 @@
 		174D2EFC19AB8CD3004424E1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		174D2EFD19AB8CD3004424E1 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		174D2EFE19AB8CD3004424E1 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		1779F9BE1A4F3D7300FA4A32 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		1779F9BF1A4F3D7400FA4A32 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		1784BB981A4E1BB10012C034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1784BB9B1A4E213C0012C034 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
 		1784BB9C1A4E213C0012C034 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
@@ -123,9 +125,6 @@
 		1789349919A694FE00310CDB /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		1789F89019AA3255006F83ED /* PVMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuViewController.h; sourceTree = "<group>"; };
 		1789F89119AA3255006F83ED /* PVMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuViewController.m; sourceTree = "<group>"; };
-		17C4F23619BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		17C4F23719BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		17C4F23819BCBF2F00CF3243 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DB92E519A4309C00AEBFC3 /* Color Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DB92E819A4309C00AEBFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17DB92EA19A4309C00AEBFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -563,6 +562,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1784BB981A4E1BB10012C034 /* Base */,
+				1779F9BF1A4F3D7400FA4A32 /* es */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -571,7 +571,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB92F219A4309C00AEBFC3 /* en */,
-				17C4F23719BCBF2F00CF3243 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -581,7 +580,7 @@
 			children = (
 				17DB92FB19A4309C00AEBFC3 /* Base */,
 				1723A3BD19AA9A2600A2C624 /* en */,
-				17C4F23619BCBF2F00CF3243 /* es */,
+				1779F9BE1A4F3D7300FA4A32 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -590,7 +589,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				17DB931019A4309C00AEBFC3 /* en */,
-				17C4F23819BCBF2F00CF3243 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

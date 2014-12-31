@@ -96,7 +96,7 @@
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
-    float side_offset = (self.frame.size.width/8.0);
+    float side_offset = (self.frame.size.width/10.0);
     float diametro = 40.0;
     float radio = diametro/2.0;
     
@@ -109,25 +109,25 @@
         [self.superTable.view addSubview:self.buttonView];
         
         // Colores
-        self.redButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+side_offset-radio, self.frame.origin.y+75.0f,diametro,diametro)];
+        self.redButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*2)-radio, self.frame.origin.y+75.0f,diametro,diametro)];
         [self.redButton setBackgroundColor: UIColorFromRGB(REDCOLORHEX)];
         [self.redButton addTarget:self action:@selector(changeToRed) forControlEvents:UIControlEventTouchUpInside];
         self.redButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.redButton];
         
-        self.blueButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*3)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
+        self.blueButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*4)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
         [self.blueButton setBackgroundColor: UIColorFromRGB(BLUECOLORHEX)];
         [self.blueButton addTarget:self action:@selector(changeToBlue) forControlEvents:UIControlEventTouchUpInside];
         self.blueButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.blueButton];
         
-        self.greenButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*5)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
+        self.greenButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*6)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
         [self.greenButton setBackgroundColor: UIColorFromRGB(GREENCOLORHEX)];
         [self.greenButton addTarget:self action:@selector(changeToGreen) forControlEvents:UIControlEventTouchUpInside];
         self.greenButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.greenButton];
         
-        self.yellowButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*7)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
+        self.yellowButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*8)-radio, self.frame.origin.y+75.0f, diametro, diametro)];
         [self.yellowButton setBackgroundColor: UIColorFromRGB(YELLOWCOLORHEX)];
         [self.yellowButton addTarget:self action:@selector(changeToYellow) forControlEvents:UIControlEventTouchUpInside];
         self.yellowButton.layer.cornerRadius = 20;
@@ -141,25 +141,25 @@
         [self.superTable.view addSubview:self.buttonView];
         
         // Colores
-        self.redButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+side_offset-radio, self.frame.origin.y-45.0f,diametro,diametro)];
+        self.redButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*2)-radio, self.frame.origin.y-45.0f,diametro,diametro)];
         [self.redButton setBackgroundColor: UIColorFromRGB(REDCOLORHEX)];
         [self.redButton addTarget:self action:@selector(changeToRed) forControlEvents:UIControlEventTouchUpInside];
         self.redButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.redButton];
         
-        self.blueButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*3)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
+        self.blueButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*4)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
         [self.blueButton setBackgroundColor: UIColorFromRGB(BLUECOLORHEX)];
         [self.blueButton addTarget:self action:@selector(changeToBlue) forControlEvents:UIControlEventTouchUpInside];
         self.blueButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.blueButton];
         
-        self.greenButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*5)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
+        self.greenButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*6)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
         [self.greenButton setBackgroundColor: UIColorFromRGB(GREENCOLORHEX)];
         [self.greenButton addTarget:self action:@selector(changeToGreen) forControlEvents:UIControlEventTouchUpInside];
         self.greenButton.layer.cornerRadius = 20;
         [self.superTable.view addSubview:self.greenButton];
         
-        self.yellowButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*7)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
+        self.yellowButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.origin.x+(side_offset*8)-radio, self.frame.origin.y-45.0f, diametro, diametro)];
         [self.yellowButton setBackgroundColor: UIColorFromRGB(YELLOWCOLORHEX)];
         [self.yellowButton addTarget:self action:@selector(changeToYellow) forControlEvents:UIControlEventTouchUpInside];
         self.yellowButton.layer.cornerRadius = 20;

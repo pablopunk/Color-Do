@@ -585,7 +585,7 @@
 		17DB931719A4309C00AEBFC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "New-Icon";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "Color Do/Color Do.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -603,7 +603,7 @@
 		17DB931819A4309C00AEBFC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "New-Icon";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "Color Do/Color Do.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";

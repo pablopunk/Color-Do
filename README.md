@@ -1,8 +1,8 @@
 Color Do
 ========
 
-App para iOS de gestión de listas y tareas
+iOS App for easy productivity
 
-Puedes descargártela aquí https://itunes.apple.com/es/app/color-do-organize-with-colors/id912541576?mt=8
+Download here https://itunes.apple.com/app/color-do-organize-with-colors/id912541576?mt=8
 
-![icono](https://raw.githubusercontent.com/pablopunk/Color-Do/master/icono.png)
+![icon](https://raw.githubusercontent.com/pablopunk/Color-Do/master/icon.png)
